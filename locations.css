@@ -1,0 +1,131 @@
+
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: lighter;
+    color: rgb(3, 36, 89);
+}
+body {
+    
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+.introtext {
+    background: #fff url(https://www.techtalentsouth.com/hubfs/TTS-Pattern-06-1900-Medium-Animated.svg) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 300px;
+    margin-bottom: 100px;
+       
+  }
+.introtext h1 {
+    font-size: 58px;
+  }
+.introtext p {
+    margin: auto;
+    font-size: 16px;
+    max-width: 744px;
+    font-weight: 500;
+  }
+.roundedbgd {
+    position: relative;
+    left: -5%;
+    bottom: 160px;
+    background-color: rgb(50, 50, 255);
+    height: 160px;
+    width: 110%;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+}
+.content {
+    background-color: rgb(50, 50, 255);
+    /* max-width: 911px; */
+    margin-top: -160px;
+    padding-bottom: 80px;
+    margin-bottom: 0px;
+}
+.content_center {
+    width: 100%;
+    max-width: 911px;
+    margin: auto;
+}
+.mapouter {
+    width: 100%;
+}
+.gmap_canvas {
+    margin-bottom: 50px;
+    width: 100%;
+}
+.location-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    margin-left: -25px;
+}
+.location-text {
+    height: 192px;
+}
+.location-info {
+    text-align: center;
+    width: calc(50% - 95px);
+    max-width: 450px;
+    height: 192px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 110px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+
+}
+.city-title {
+    font-size: 40px;
+    margin: -10px 0px 0px 0px;
+    font-weight: 500;
+}
+.city-info {
+    font-size: 16px;
+    font-weight: 500;
+}
+.location-link {
+    position: relative;
+    left: 0;
+    width: 100%;
+    margin-top: 40px;
+    
+}
+.location-link a {
+    padding: 15px 31px 14px;
+    text-decoration: none;
+    border: 3px solid rgb(3, 36, 89);
+    border-radius: 26px;
+    color: rgb(3, 36, 89);
+}
+.bottomcontent {
+   margin-top: -50px;
+   text-align: center;
+   padding-top: 120px;
+   padding-bottom: 120px;
+   font-size: 30px;
+   color: rgb(3, 36, 89);
+}
+.bottomcontent a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 3px solid rgb(50, 50, 255);
+    padding: 12px 60px;
+    border-radius: 60px;
+    background-color: rgb(50, 50, 255);
+}
+#grad {
+    background-image: linear-gradient(rgb(50, 50, 255), rgb(136, 211, 255));
+}
+.footer {
+    height: 600px;
+}
